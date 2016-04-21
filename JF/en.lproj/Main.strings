@@ -1,0 +1,87 @@
+
+/* Class = "UIButton"; normalTitle = "比赛记录 "; ObjectID = "1Oo-Cr-Fas"; */
+"1Oo-Cr-Fas.normalTitle" = "比赛记录 ";
+
+/* Class = "UIButton"; normalTitle = "红方犯规"; ObjectID = "8aP-0m-dLs"; */
+"8aP-0m-dLs.normalTitle" = "红方犯规";
+
+/* Class = "UILabel"; text = "计分操作"; ObjectID = "AcW-8h-zub"; */
+"AcW-8h-zub.text" = "计分操作";
+
+/* Class = "UILabel"; text = "欢迎使用本软件 "; ObjectID = "BTf-CD-nhp"; */
+"BTf-CD-nhp.text" = "欢迎使用本软件 ";
+
+/* Class = "UILabel"; text = "："; ObjectID = "H0q-n2-MmA"; */
+"H0q-n2-MmA.text" = "：";
+
+/* Class = "UIButton"; normalTitle = "晋级图示"; ObjectID = "I7o-TW-IZz"; */
+"I7o-TW-IZz.normalTitle" = "晋级图示";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "IEA-C2-jy1"; */
+"IEA-C2-jy1.normalTitle" = "返回";
+
+/* Class = "UILabel"; text = "晋级 "; ObjectID = "O8B-q6-Y3J"; */
+"O8B-q6-Y3J.text" = "晋级 ";
+
+/* Class = "UIButton"; normalTitle = "乒乓球规则"; ObjectID = "P7k-Pv-JpA"; */
+"P7k-Pv-JpA.normalTitle" = "乒乓球规则";
+
+/* Class = "UILabel"; text = "球权："; ObjectID = "Q3p-Ur-w8j"; */
+"Q3p-Ur-w8j.text" = "球权：";
+
+/* Class = "UIButton"; normalTitle = "第二比赛日"; ObjectID = "SM8-TU-rqG"; */
+"SM8-TU-rqG.normalTitle" = "第二比赛日";
+
+/* Class = "UIButton"; normalTitle = "比赛选手"; ObjectID = "W33-Uz-3pg"; */
+"W33-Uz-3pg.normalTitle" = "比赛选手";
+
+/* Class = "UIButton"; normalTitle = "红方得分"; ObjectID = "Xpj-K6-0IW"; */
+"Xpj-K6-0IW.normalTitle" = "红方得分";
+
+/* Class = "UILabel"; text = "蓝方"; ObjectID = "Y7s-Pe-mKl"; */
+"Y7s-Pe-mKl.text" = "蓝方";
+
+/* Class = "UILabel"; text = "第一比赛日"; ObjectID = "bcp-rL-Fve"; */
+"bcp-rL-Fve.text" = "第一比赛日";
+
+/* Class = "UILabel"; text = "红方"; ObjectID = "eLd-SW-dwU"; */
+"eLd-SW-dwU.text" = "红方";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "h0z-PK-9u6"; */
+"h0z-PK-9u6.normalTitle" = "返回";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "lNX-5a-lCS"; */
+"lNX-5a-lCS.title" = "Title";
+
+/* Class = "UIButton"; normalTitle = "蓝方犯规"; ObjectID = "n2k-l8-XbI"; */
+"n2k-l8-XbI.normalTitle" = "蓝方犯规";
+
+/* Class = "UIButton"; normalTitle = "蓝方得分"; ObjectID = "npm-RD-u3u"; */
+"npm-RD-u3u.normalTitle" = "蓝方得分";
+
+/* Class = "UIButton"; normalTitle = "计分操作"; ObjectID = "oJF-AO-uam"; */
+"oJF-AO-uam.normalTitle" = "计分操作";
+
+/* Class = "UILabel"; text = "红方："; ObjectID = "p07-ZE-oIY"; */
+"p07-ZE-oIY.text" = "红方：";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "qEP-Yh-25U"; */
+"qEP-Yh-25U.normalTitle" = "返回";
+
+/* Class = "UILabel"; text = "乒乓球规则"; ObjectID = "qvU-go-G9f"; */
+"qvU-go-G9f.text" = "乒乓球规则";
+
+/* Class = "UILabel"; text = "蓝方胜场："; ObjectID = "vFA-uN-6cl"; */
+"vFA-uN-6cl.text" = "蓝方胜场：";
+
+/* Class = "UILabel"; text = "比赛双方"; ObjectID = "vpP-iS-LKo"; */
+"vpP-iS-LKo.text" = "比赛双方";
+
+/* Class = "UILabel"; text = "蓝方："; ObjectID = "wFC-tc-KBG"; */
+"wFC-tc-KBG.text" = "蓝方：";
+
+/* Class = "UILabel"; text = "晋级："; ObjectID = "yIL-vj-dk1"; */
+"yIL-vj-dk1.text" = "晋级：";
+
+/* Class = "UILabel"; text = "红方胜场："; ObjectID = "z5i-F0-irG"; */
+"z5i-F0-irG.text" = "红方胜场：";

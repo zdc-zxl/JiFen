@@ -483,6 +483,7 @@
 				4867CCE11CC5082C00255379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4867CCE21CC5082C00255379 /* Build configuration list for PBXNativeTarget "JFTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +492,7 @@
 				4867CCE41CC5082C00255379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4867CCE51CC5082C00255379 /* Build configuration list for PBXNativeTarget "JFUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +501,7 @@
 				4867CCE71CC5082C00255379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

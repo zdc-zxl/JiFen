@@ -25,5 +25,9 @@ class ViewController: UIViewController {
     }
 
    
+    @IBAction func loginbt(sender: AnyObject) {
+        self.performSegueWithIdentifier("login", sender: self)
+    }
 }
+
 
