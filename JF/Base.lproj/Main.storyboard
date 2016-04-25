@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-730" y="336"/>
+            <point key="canvasLocation" x="-910" y="339"/>
         </scene>
         <!--Title-->
         <scene sceneID="b0S-cn-Wof">
@@ -105,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="-414" y="-375"/>
         </scene>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="55F-z8-b3y">
             <objects>
-                <viewController id="7KP-Th-Qjr" sceneMemberID="viewController">
+                <viewController id="7KP-Th-Qjr" customClass="firstViewController" customModule="JF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GFr-WR-p3t">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,6 +142,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="蓝方得分"/>
+                                <connections>
+                                    <action selector="blue:" destination="7KP-Th-Qjr" eventType="touchUpInside" id="iRr-Qd-4kr"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="l5H-Ks-Ocr">
                                 <rect key="frame" x="150" y="429" width="97" height="30"/>
@@ -170,14 +173,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="h13-6l-ToB">
-                                <rect key="frame" x="129" y="290" width="27" height="30"/>
+                                <rect key="frame" x="114" y="290" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="9lP-i7-aGj">
-                                <rect key="frame" x="194" y="290" width="30" height="30"/>
+                                <rect key="frame" x="194" y="290" width="47" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -290,12 +293,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xCI-05-DDC">
-                                <rect key="frame" x="32" y="358" width="106" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" title="红方得分"/>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="Tnx-Hd-iYs">
                                 <rect key="frame" x="243" y="143" width="35" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -303,19 +300,35 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xCI-05-DDC">
+                                <rect key="frame" x="31" y="358" width="106" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="红方得分"/>
+                                <connections>
+                                    <action selector="red:" destination="7KP-Th-Qjr" eventType="touchUpInside" id="6RK-V4-8ue"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="a" destination="kcE-OM-XLU" id="AgM-s6-fWI"/>
+                        <outlet property="b" destination="EU6-CG-Ntf" id="yvb-n9-q6O"/>
+                        <outlet property="bluf" destination="9lP-i7-aGj" id="hm8-Ox-0ub"/>
+                        <outlet property="jinji" destination="cWh-no-UGg" id="89G-oC-XUc"/>
+                        <outlet property="redf" destination="h13-6l-ToB" id="SRu-a4-QNj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jcf-yj-LFH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-584" y="1113"/>
+            <point key="canvasLocation" x="-581" y="1114"/>
         </scene>
-        <!--View Controller-->
+        <!--Jj View Controller-->
         <scene sceneID="8l0-G3-Bbm">
             <objects>
-                <viewController id="yzD-jU-Gml" sceneMemberID="viewController">
+                <viewController id="yzD-jU-Gml" customClass="jjViewController" customModule="JF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MjB-St-7tk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -327,7 +340,7 @@
                                 <color key="backgroundColor" red="0.97447643979999998" green="0.95723643120000002" blue="0.97418611389999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="返回"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="6da-Dq-0SA"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" identifier="back" id="6da-Dq-0SA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="比赛双方" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vpP-iS-LKo">
@@ -346,20 +359,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="U2F-RR-tRK">
-                                <rect key="frame" x="26" y="137" width="119" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="fZE-v1-LKE">
-                                <rect key="frame" x="197" y="137" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="gTD-2L-95I">
                                 <rect key="frame" x="26" y="192" width="119" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -472,14 +471,43 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iMy-FL-Veh">
+                                <rect key="frame" x="150" y="131" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="红方晋级"/>
+                                <connections>
+                                    <action selector="red:" destination="yzD-jU-Gml" eventType="touchUpInside" id="Yxb-V1-5Co"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v8u-QZ-he5">
+                                <rect key="frame" x="241" y="131" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="蓝方晋级"/>
+                                <connections>
+                                    <action selector="blue:" destination="yzD-jU-Gml" eventType="touchUpInside" id="amk-uH-F8D"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="晋级：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q87-ca-Gzh">
+                                <rect key="frame" x="152" y="196" width="51" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="up" destination="Ezc-hf-fmT" id="ibr-r7-AVc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bRa-95-ki4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="94" y="690"/>
+            <point key="canvasLocation" x="-364" y="354"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

@@ -14,6 +14,8 @@
 		4867CCC51CC5082C00255379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4867CCC31CC5082C00255379 /* LaunchScreen.storyboard */; };
 		4867CCD01CC5082C00255379 /* JFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4867CCCF1CC5082C00255379 /* JFTests.swift */; };
 		4867CCDB1CC5082C00255379 /* JFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4867CCDA1CC5082C00255379 /* JFUITests.swift */; };
+		4871C19D1CCE426D006C9171 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871C19C1CCE426D006C9171 /* firstViewController.swift */; };
+		4871C19F1CCE4523006C9171 /* jjViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871C19E1CCE4523006C9171 /* jjViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4867CCD61CC5082C00255379 /* JFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4867CCDA1CC5082C00255379 /* JFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFUITests.swift; sourceTree = "<group>"; };
 		4867CCDC1CC5082C00255379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4871C19C1CCE426D006C9171 /* firstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		4871C19E1CCE4523006C9171 /* jjViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jjViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4867CCC11CC5082C00255379 /* Assets.xcassets */,
 				4867CCC31CC5082C00255379 /* LaunchScreen.storyboard */,
 				4867CCC61CC5082C00255379 /* Info.plist */,
+				4871C19C1CCE426D006C9171 /* firstViewController.swift */,
+				4871C19E1CCE4523006C9171 /* jjViewController.swift */,
 			);
 			path = JF;
 			sourceTree = "<group>";
@@ -255,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4871C19F1CCE4523006C9171 /* jjViewController.swift in Sources */,
 				4867CCBD1CC5082C00255379 /* ViewController.swift in Sources */,
 				4867CCBB1CC5082C00255379 /* AppDelegate.swift in Sources */,
+				4871C19D1CCE426D006C9171 /* firstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
