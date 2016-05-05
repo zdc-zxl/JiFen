@@ -56,7 +56,6 @@
                                 <animations/>
                                 <state key="normal" title="计分操作"/>
                                 <connections>
-                                    <action selector="loginbt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aH0-2M-0Ce"/>
                                     <segue destination="7KP-Th-Qjr" kind="modal" identifier="login" id="DFR-SF-FD7"/>
                                 </connections>
                             </button>
@@ -494,7 +493,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
